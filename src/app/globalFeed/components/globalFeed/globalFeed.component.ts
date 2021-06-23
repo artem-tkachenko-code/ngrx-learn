@@ -5,10 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './globalFeed.component.html',
   styleUrls: ['./globalFeed.component.scss'],
 })
-export class GlobalFeedComponent implements OnInit {
+export class GlobalFeedComponent {
   apiUrl = '/articles';
-
-  constructor() {}
-
-  ngOnInit() {}
 }
